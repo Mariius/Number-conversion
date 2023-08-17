@@ -3,13 +3,14 @@
 
 #include <iostream>
 #include <string>
+using namespace std;
 
 #define printf(fmt, ...) cout << "printf() is not supported by this Framework. Please use cout."
 
-std::string toBin(uint32_t decimalNumber);
+string toBin(int decimalNumber);
 
-std::string toHex(uint32_t decimalNumber);
+string toHex(int decimalNumber);
 
-std::string toBase(uint32_t decimalNumber, uint32_t base);
+string toBase(int decimalNumber, int base);
 
 #endif

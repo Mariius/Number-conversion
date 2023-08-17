@@ -1,6 +1,6 @@
 #include "NumberConversion.hpp"
 
-std::string toBin(uint32_t decimalNumber)
+std::string toBin(int decimalNumber)
 {
 	// Implement
  
@@ -16,7 +16,7 @@ std::string toBin(uint32_t decimalNumber)
 	}
 }
 
-std::string toHex(uint32_t decimalNumber)
+std::string toHex(int decimalNumber)
 {
 	// Implement
 	std::string hex = "";
@@ -61,7 +61,7 @@ std::string toHex(uint32_t decimalNumber)
 	
 }
 
-std::string toBase(uint32_t decimalNumber, uint32_t base)
+std::string toBase(int decimalNumber, int base)
 {
 	// Implement
 	std::string result = "";
